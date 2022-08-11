@@ -97,51 +97,29 @@
   .feature-list .title {
     color: var(--primary-text-color);
   }
- 
+  .feature-text::before{
+    display: block;
+    margin-bottom: 30px;
+    content: "";
+    height: 120px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    background-repeat: no-repeat;
+    background-position: center; 
+  }
   
   .images::before{
-    display: block;
-    margin-bottom: 30px;
-    content: "";
-    height: 120px;
-    border-radius: 4px;
-    background-color: #F5F4FA;
-    background-image: url(../images/Group.svg);
-    background-repeat: no-repeat;
-    background-position: center;
+     background-image: url(../images/Group.svg);
+  
   }
   .clock::before{
-    display: block;
-    margin-bottom: 30px;
-    content: "";
-    height: 120px;
-    border-radius: 4px;
-    background-color: #F5F4FA;
     background-image: url(../images/clock\ 1.svg);
-    background-repeat: no-repeat;
-    background-position: center;
   }
   .vector::before{
-    display: block;
-    margin-bottom: 30px;
-    content: "";
-    height: 120px;
-    border-radius: 4px;
-    background-color: #F5F4FA;
     background-image: url(../images/Vector.svg);
-    background-repeat: no-repeat;
-    background-position: center;
   }
   .astronaut::before{
-    display: block;
-    margin-bottom: 30px;
-    content: "";
-    height: 120px;
-    border-radius: 4px;
-    background-color: #F5F4FA;
     background-image: url(../images/astronaut\ 1.svg);
-    background-repeat: no-repeat;
-    background-position: center;
   }
   
   .text {
