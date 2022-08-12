@@ -133,20 +133,7 @@
   .work .lst + .lst {
     margin-left: 45px;
   }
-  .icons-item::after{
-    display: block;
-    height: 44px;
-    width: 44px;
-    margin-right: 10px;
-    content: "";
-    background-position: center;
-    background-size: contain;
-    background-image: url(../images/instagram\ 2.svg),
-    url(../images/twitter\ 1.svg),
-    url(../images/facebook\ 1.svg),
-    url(../images/linkedin\ 1.svg);
-    background-repeat: no-repeat;
-  }
+  
   .command {
     display: flex;
   }
