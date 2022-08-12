@@ -94,33 +94,7 @@
     display: flex;
     align-items: center;
   }
-   .mail::before {
-    display: inline-block;
-    content: "";
-    height: 12px;
-    width: 16px;
-    align-items: center;
-    margin-right: 10px;
-    background-repeat: no-repeat;
-    background-image: url(../images/envelope.svg);
-    background-size: contain;
-    background-position: center;
-    cursor: pointer;
-  }
-  .phone::before{
-    display:inline-block;
-    content: "";
-    height: 16px;
-    width: 12px;
-    align-items: center;
-    margin-right: 10px; 
-    background-repeat: no-repeat;
-    background-image: url(../images/smartphone.svg);
-    background-size: contain;
-    background-position: center;
-    align-self: center;
-    cursor: pointer;
-  } 
+   
   .site-nav {
     display: flex;
     margin-left: 93px;
@@ -136,6 +110,20 @@
   .contacts .lnk + .lnk {
     margin-left: 50px;
   }
+  /* .contacts-link { 
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: var(--grey-cl);
+  }
+  
+  .contacts-item:first-child .contacts-icon {
+    margin-top: -30px;
+  }
+  .contacts-icon {
+    stroke: var(--grey-cl);
+    fill: none;
+  } */
   
   .site-nav .link,
   .contacts .link {
