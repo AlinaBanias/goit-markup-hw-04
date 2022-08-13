@@ -96,4 +96,43 @@
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
   }
+  .title-foot{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    
+      color: #ffffff;
+      }
+  .socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .socials-link.cont {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 10%);
+  
+  }
+  .social-icon{
+    fill: #AFB1B8;
+  }
+  .socials-link:hover ,
+  .socials-link:focus{
+    background-color: var(--accent-color);
+    
+  }
+  .social-icon:hover ,
+  .social-icon:focus{
+  fill:#ffffff
+  }
   
