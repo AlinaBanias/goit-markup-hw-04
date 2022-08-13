@@ -151,6 +151,12 @@
   .contacts .link:focus {
     color: var(--accent-color);
   }
+  .contacts{
+    display: flex;
+  }
+  .lnk{
+    align-items: center;
+  }
   .section {
     padding-top: 94px;
     padding-bottom: 94px;

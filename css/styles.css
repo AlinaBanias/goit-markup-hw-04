@@ -170,3 +170,7 @@ span {
 
   color: var(--main-txt-cl);
 }
+.clients{
+  display: flex;
+  justify-content: center;
+}
