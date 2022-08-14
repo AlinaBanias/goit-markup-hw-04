@@ -109,8 +109,9 @@
     margin-left: 50px;
   }
   .link {
-    align-self: center;
-    gap: 16px;
+    display: flex;
+    align-content: center;
+    gap: 10px;
   }
   
   
@@ -148,7 +149,7 @@
     
   }
   .contacts .link{
-    display: block;
+    display: flex;
     padding-top: 32px;
     padding-bottom: 32px;
     align-items: center;
@@ -168,15 +169,21 @@
   .site-nav .link.current {
     color: var(--accent-color);
   }
-  .contacts .link:hover,
-  .contacts .link:focus {
-    color: var(--accent-color);
+   .link:hover .contacts-icon{
+    fill: var(--accent-color);
+  }
+  .link:hover,
+  .link:focus{
+    color: var(--accent-color); 
   }
   .contacts{
     display: flex;
-  }
-  .lnk{
     align-items: center;
+  }
+  .contacts-icon{
+    fill: rgba(117, 117, 117, 1);
+    align-items: center;
+    
   }
   .section {
     padding-top: 94px;
