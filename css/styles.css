@@ -75,7 +75,7 @@ span {
   font-size: 14px;
   line-height: 1.1;
   text-transform: uppercase;
-  margin-top: 55px;
+  margin-top: 30px;
 }
 
 .section-title {
@@ -102,23 +102,23 @@ span {
 .feature-list .title {
   color: var(--primary-text-color);
 }
-.feature-text {
-  height: 120px;
-  border-radius: 4px;
-  background-color: #f5f4fa;
 
-}
 .feature-box{
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 120px;
+  border-radius: 4px;
+  background-color: #f5f4fa;
   
 }
+
 
 .text {
   line-height: 1.7;
   color: var(--second-text-color);
   margin-bottom: 0px;
+  
 }
 .about {
   padding-top: 0px;
@@ -175,7 +175,7 @@ span {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background-color: #ffffff;
+  
 
 }
 
@@ -192,17 +192,24 @@ span {
 
 }
 .social-icon{
+  width: 20px;
+  height: 20px;
   fill: #AFB1B8;
+
+  border-radius: 50%;
+  
 }
-.socials-link:hover ,
-.socials-link:focus{
-  background-color: var(--accent-color);
-  fill:#ffffff
+.socials-link:hover .social-icon ,
+.socials-link:focus .social-icon{
+  background-color: #2196f3;
+  fill: #ffffff;
+  
 }
-.social-icon:hover ,
-.social-icon:focus{
+.social-link:hover ,
+.social-link:focus{
   background-color: var(--accent-color);
-  fill:#ffffff
+  color:#ffffff;
+  
 }
 
 .clients{
