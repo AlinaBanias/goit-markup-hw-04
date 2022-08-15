@@ -84,9 +84,7 @@ span {
   text-align: center;
   margin-bottom: 50px;
 }
-.benefits{
-  margin-bottom: 200px;
-}
+
 .feature,
 .work {
   display: flex;
@@ -175,7 +173,7 @@ span {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  
+  background-color: #ffffff;
 
 }
 
@@ -196,17 +194,16 @@ span {
   height: 20px;
   fill: #AFB1B8;
 
-  border-radius: 50%;
+
   
 }
 .socials-link:hover .social-icon ,
 .socials-link:focus .social-icon{
-  background-color: #2196f3;
   fill: #ffffff;
   
 }
-.social-link:hover ,
-.social-link:focus{
+.socials-link:hover ,
+.socials-link:focus{
   background-color: var(--accent-color);
   color:#ffffff;
   
