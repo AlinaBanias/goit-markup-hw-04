@@ -169,7 +169,8 @@
   .site-nav .link.current {
     color: var(--accent-color);
   }
-   .link:hover .contacts-icon{
+   .link:hover .contacts-icon,
+   .link:focus .contacts-icon{
     fill: var(--accent-color);
   }
   .link:hover,
